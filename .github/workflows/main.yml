@@ -49,4 +49,4 @@ jobs:
           docker pull joelgyunampark/pokopoko:${{ github.sha }}
           docker stop pokopoko || true
           docker rm pokopoko || true
-          docker run -d --name myapp -p 80:8080 joelgyunampark/pokopoko:${{ github.sha }}
+          docker run -d --name pokopoko -p 80:8080 joelgyunampark/pokopoko:${{ github.sha }}
