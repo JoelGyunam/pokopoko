@@ -16,7 +16,7 @@ spring:
     defer-datasource-initialization: true
     
   datasource:
-    url: jdbc:mysql://pokopoko.caqxtjyl20r1.ap-northeast-2.rds.amazonaws.com/pokopoko?createDatabaseIfNotExist=true
+    url: jdbc:mysql://pokopoko.caqxtjyl20r1.ap-northeast-2.rds.amazonaws.com/pokopokoDev?createDatabaseIfNotExist=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
     password: pokopoko
